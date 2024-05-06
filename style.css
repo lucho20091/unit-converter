@@ -60,6 +60,11 @@ body{
     color: #3D3D3D;
     margin: 0 0 24px;
 }
+.first-main button:hover{
+    background: #273469;
+    cursor: pointer;
+    color: #FFF;
+}
 .second-main{
     height: 444px;
     display: flex;
