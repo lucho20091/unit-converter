@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background: black;
+}
+.main{
+    display: block;
+    width: 550px;
+    height: 729px;
+    margin: 20% auto;
+    background:#F4F4F4;
+}
+
+.first-main{
+    height: 285px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+    background: #6943FF;
+}
+.first-main h1{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 33px 0 30px;
+}
+.first-main input{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24.39px;
+    color: #fff;
+    text-align: center;
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background: transparent;
+    margin: 0 0 25px;
+}
+.first-main input::-webkit-outer-spin-button,
+.first-main input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.first-main button{
+    display: block;
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin: 0 0 24px;
+}
+.second-main{
+    height: 444px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    display: flex;
+    width: 500px;
+    height: 108.57px;
+    background: #FFFFFF;
+}
+.box:nth-child(2){
+    margin: 23.44px auto;
+}
+.box h2, .box p{
+    margin: 0;
+}
+.box h2{
+    margin: 0 0 9px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #5A537B;
+}
+.box p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+}
+.little-box{
+    margin: 31px auto 18px;
+    width: 346px;
+    height: 59px;
+}
